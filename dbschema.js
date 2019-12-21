@@ -13,11 +13,34 @@ let db = {
   ],
   screams: [
     {
-      userHandle: "user",
+      userHandle: "This is a sample scream",
       body: "body",
       createdAt: "2019-12-15T00:35:35.574Z",
       likeCount: 5,
       commentCount: 2
+    }
+  ]
+};
+const userDetails = {
+  // Redux
+  credentials: {
+    userID: "N43KJ0LKJ72",
+    email: "user@email.com",
+    handle: "user",
+    createdAt: "2019-12-15T00:35:35.574Z",
+    imageUrl: "image/jfjfjf/jfjfjf",
+    bio: "Hello, my name is user, nice to meet you",
+    website: "https://user.com",
+    location: "London, UK"
+  },
+  likes: [
+    {
+      userHandle: "user",
+      screamId: "4987094"
+    },
+    {
+      userHandle: "user",
+      screamId: "4987095"
     }
   ]
 };
