@@ -17,14 +17,24 @@ let db = {
       body: "body",
       createdAt: "2019-12-15T00:35:35.574Z",
       likeCount: 5,
-      commentCount: 2
+      commentCount: 3
     }
   ],
-  comment: [
+  comments: [
     {
       userHandle: "This is a sample scream",
       screamId: "734TRJ11",
       body: "body",
+      createdAt: "2019-12-15T00:35:35.574Z"
+    }
+  ],
+  notifications: [
+    {
+      recipient: "user",
+      sender: "John",
+      read: "True | False",
+      screamId: "ladlkjf122",
+      type: "like | comment",
       createdAt: "2019-12-15T00:35:35.574Z"
     }
   ]
