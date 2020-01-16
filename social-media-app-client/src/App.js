@@ -29,6 +29,29 @@ const myTheme = createMuiTheme({
   },
   typography: {
     useNextVariants: true
+  },
+  form: {
+    textAlign: "center"
+  },
+  pageTitle: {
+    margin: "10px"
+  },
+  image: {
+    margin: "20px"
+  },
+  button: {
+    margin: "10px",
+    position: "relative"
+  },
+  textField: {
+    margin: "10px"
+  },
+  customError: {
+    color: "red",
+    fontSize: "0.8rem"
+  },
+  progress: {
+    position: "absolute"
   }
 });
 
