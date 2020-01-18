@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import AppIcon from "../images/icon.jpg";
-import axios from "axios";
 import { Link } from "react-router-dom";
 
 // Material UI

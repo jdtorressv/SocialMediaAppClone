@@ -1,7 +1,10 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import axios from "axios";
 import Scream from "../components/Scream";
+import Profile from "../components/Profile";
+
+// Material UI
+import Grid from "@material-ui/core/Grid";
 
 class home extends React.Component {
   state = {
@@ -33,7 +36,7 @@ class home extends React.Component {
           {recentScreamsMarkup}
         </Grid>
         <Grid item sm={4} xs={12}>
-          <p>Profile coming soon...</p>
+          <Profile></Profile>
         </Grid>
       </Grid>
     );
